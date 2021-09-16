@@ -2,19 +2,27 @@ body {
     background-color: lightyellow;
     margin: 0px;
 }
-.nav-links > a {
-    text-decoration: none;
+li, a {
+    font-weight: 500;
+    font-size: 16px;
     color: white;
-    display: inline;
+    text-decoration: none;
 }
-.nav-links {
-    float: right;
-}
-h2 {
-    display: inline;
-}
-.nav-bar {
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10%;
     background-color: black;
     color: white;
-    width: 100%;
+}
+.nav_links {
+    list-style: none;
+}
+.nav_links li {
+    display: inline-block;
+    padding: 5px 20px;
+}
+#logo {
+    width:350px;
 }
