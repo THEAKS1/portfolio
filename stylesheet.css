@@ -1,0 +1,20 @@
+body {
+    background-color: lightyellow;
+    margin: 0px;
+}
+.nav-links > a {
+    text-decoration: none;
+    color: white;
+    display: inline;
+}
+.nav-links {
+    float: right;
+}
+h2 {
+    display: inline;
+}
+.nav-bar {
+    background-color: black;
+    color: white;
+    width: 100%;
+}
