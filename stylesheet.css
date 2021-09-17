@@ -76,12 +76,9 @@ header {
 #vtile2 {
     margin-left: 6em;
 }
-h1{
-    font-size: 40px;
-}
 #pskill{
     margin-left: 2%;
-    margin-top: 6%;
+    margin-top: 7%;
     width:40%;
     text-align: center;
 }
@@ -89,7 +86,7 @@ h1{
     width: 40%;
     float: right;
     margin-right: 5%;
-    margin-top: -26%;
+    margin-top: -35%;
 }
 .box {
     display: inline-block;
@@ -102,7 +99,9 @@ figcaption {
     text-align: center;
     font-family: 'Lucida Calligraphy';
     font-size: 20px;
-    background-color: blueviolet;
+    background-color: black;
+    color: white;
+    opacity: 0.75;
 }
 .box1 figcaption{
     width: 55%;
@@ -124,7 +123,7 @@ label {
 #button{
     width: 10%;
     height: 2em;
-    margin-left: 5%;
+    margin-left: 10%;
     background-color: yellow;
     border-radius: 5px;
     border: none;
@@ -139,4 +138,12 @@ footer {
 footer li {
     font-size: 20px;
     color: red;
+}
+input {
+    height: 30px;
+    font-size: 15px;
+}
+p {
+    font-family: "Comic Sans MS";
+    font-size: 40px;
 }
