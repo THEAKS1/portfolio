@@ -1,6 +1,9 @@
 body {
     margin: 0px;
-    background-color: #cfffcf;
+    background-image: url('./images/b.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 .navlinks li, a {
     font-weight: 500;
