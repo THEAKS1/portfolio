@@ -4,6 +4,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    overflow: scroll;
 }
 .navlinks li, a {
     font-weight: 500;
@@ -71,10 +72,10 @@ header {
     width: 100%;
 }
 #skill1, #skill2 {
-    padding: 2em;
+    padding: 3%;
 }
 #vtile2 {
-    margin-left: 6em;
+    margin-left: 20%;
 }
 #pskill{
     margin-left: 2%;
@@ -86,11 +87,12 @@ header {
     width: 40%;
     float: right;
     margin-right: 5%;
-    margin-top: -35%;
+    margin-top: -25%;
+    white-space: nowrap;
 }
 .box {
     display: inline-block;
-    padding: 2em;
+    padding: 5%;
 }
 .box1{
     margin-left: 28%;
@@ -113,6 +115,7 @@ form {
     color: white;
 }
 .form {
+    margin-top: 10%;
     background-color: black;
     font-size: larger;
     height: 500px;
