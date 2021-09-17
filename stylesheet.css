@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    background-color: #cfffcf;
 }
 .navlinks li, a {
     font-weight: 500;
@@ -34,38 +35,85 @@ header {
     
 }
 #softdev {
-    width: 38%;
-    height: 28em;
-    border-radius: 10%;
+    width: 50%;
+    height: 29em;
     float: right;
-    margin-right: 10%;
     object-fit: cover;
 }
 #head1 {
-    width: 40%;
-    margin-left: 6%;
+    background-color: white;
+    padding: 70px 0;
+    width: 45%;
+    height: 12em;
+    margin-left: 3%;
     text-align: center;
-    margin-top: 9%;
+    margin-top: 3%;
+    border: 2px solid black;
+    box-shadow: 4px 3px 8px 1px #969696;
+  	-webkit-box-shadow: 4px 3px 8px 1px #969696;
 }
 .stile{
-    width:15%;
+    width:20%;
     text-align: center;
     display: inline-block;
     font-family: "Bernard MT";
     font-size: 20px;
     
 }
-.skill .stile img {
-    width: 80%
+.stile img {
+    width: 100%;
+    border-radius: 50%;
 }
 .skill {
-    margin: 0 auto;
-    align-items: center;
-    width: 50%;
-    justify-content: space-between;
-    display: flex;
-    align-items: center;
+    width: 100%;
+}
+#skill1, #skill2 {
+    padding: 2em;
+}
+#vtile2 {
+    margin-left: 6em;
 }
 h1{
     font-size: 40px;
+}
+#pskill{
+    margin-left: 2%;
+    margin-top: 6%;
+    width:40%;
+    text-align: center;
+}
+#tile {
+    width: 40%;
+    float: right;
+    margin-right: 5%;
+    margin-top: -26%;
+}
+.box {
+    display: inline-block;
+    padding: 2em;
+}
+.box1{
+    margin-left: 28%;
+}
+figcaption {
+    text-align: center;
+    font-family: 'Lucida Calligraphy';
+    font-size: 20px;
+    background-color: blueviolet;
+}
+.box1 figcaption{
+    width: 55%;
+    font-family: 'Lucida Calligraphy';
+    font-size: 20px;;
+}
+form {
+    margin-left: 42%;
+    color: white;
+}
+.form {
+    background-color: black;
+    font-size: larger;
+}
+form label {
+    width: 50px;
 }

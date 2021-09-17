@@ -17,47 +17,62 @@
             </nav>
         </header>
         <br><br><br>
-        <img src="./images/back1.jpg" id="front"><br><br>
+        <img src="./images/back1.jpg" id="front"><br>
         <img src="./images/soft.jpg" id="softdev">
         <div id="head1">
-            <h1>I'm Akash Kumar Singh, love developing softwares and taking out insights using data science.</h1>
+            <h1>I'm <b>Akash Kumar Singh</b>, love developing softwares and taking out insights using data science.</h1>
         </div>
-        <h1 style="text-align: center; margin-top: 10%;">Skills</h1>
-        <div class="skill">
-            <div class="stile">
-                <img src="./images/python.jpg">
-                <span>Python 3</span>
+        <div id="parent">
+        <div id="pskill">
+            <h1>Skills</h1>
+            <div class="skill">
+                <div id="skill1">
+                    <div class="stile" id="vtile1">
+                        <img src="./images/python.jpg">
+                        <span>Python 3</span>
+                    </div>
+                    <div class="stile" id="vtile2">
+                        <img src="./images/mysql.jpg">
+                        <span>MySQL</span>
+                    </div>
+                </div>
+                <div id="skill2">
+                    <div class="stile" id="vtile1">
+                        <img src="./images/ml.png">
+                        <span>Machine Learning</span>
+                    </div>
+                    <div class="stile" id="vtile2">
+                        <img src="./images/ds.png">
+                        <span>Data Science</span>
+                    </div>
+                </div>
             </div>
-            <div class="stile">
-                <img src="./images/mysql.jpg">
-                <span>MySQL</span>
-            </div>
-            <div class="stile">
-                <img src="./images/ml.png">
-                <span>Machine Learning</span>
-            </div>
-            <div class="stile">
-                <img src="./images/ds.png">
-                <span>Data Science</span>
-            </div>
-
         </div>
         </ul>
-        <figure>
+        <div id="tile">
+            <div style="text-align: center; font-family: 'Imprint MT Shadow'; font-size: 40px;"><b>Work samples</b></div>
+            <div class="box">
             <a href="#">
-                <img src="./images/pdfmerge.svg" width=300px>
+                <img src="./images/pdfmerge.png" width=300px style="object-fit: cover; width: 300px; height: 200px;">
             </a>
                 <figcaption>PDF merger</figcaption>
+            </div>
+            <div class="box">
             <a href="#">
                 <img src="./images/moneymang.jpeg" width=300px>
             </a>
                 <figcaption>Money manager</figcaption>
+            </div>
+            <div class="box1">
             <a href="#">
-                <img src="./images/pswdmng.jpg" width=300px>
+                <img src="./images/pswdmng.jpg" width=300px height="200px">
             </a>
                 <figcaption>Password manager</figcaption>
-        </figure><br><br><hr>
-        <h3>Feedback from</h3>
+            </div>
+        </div>
+    </div><br><br><br><br><br><br><hr>
+    <div class = "form">
+        <h3 style="text-align: center; color: white; font-size: 30px;"><u>Feedback from</u></h3>
         <form>
             <label for="name">Name:</label>
             <input type="text" name="name" placeholder="Enter your name"><br><br>
@@ -70,7 +85,7 @@
             <input type="checkbox" name="agreement">
             <label>Subscribe to our newsletter</label><br><br>
             <input type="button" name="Submit" value="Submit">
-        </form><br><br><hr>
+        </form></div><br><br><hr>
         <footer>
             All the projects mentioned in this portfolio are solely developed by the site owner.
             <br><br>
