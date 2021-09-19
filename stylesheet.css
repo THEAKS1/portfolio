@@ -149,3 +149,9 @@ p {
     font-family: "Comic Sans MS";
     font-size: 2vw;
 }
+
+@media screen and (max-width: 768px) {
+    #head1 {
+        background-color: blue !important;
+    }
+}
