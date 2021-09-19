@@ -10,7 +10,7 @@ body {
     align-items: center;
 }
 .super {
-    margin-top: 8%;
+    margin-top: 1em;
     width:80%;
     height: auto;
     border: 1px solid black;
@@ -21,7 +21,7 @@ body {
     justify-content: center;
 }
 .subsuper {
-    margin: 2%;
+    margin: 1em;
     width: 100%;
     height: 100%;
     display: flex;
@@ -105,7 +105,7 @@ input {
         width: 80%;
     }
     .child1, .child2, .child3, .child4{
-        width: 40%;
+        width: 41%;
     }
     .parent1, .parent3{
         background-color: #f7eb43;
